@@ -1,0 +1,118 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: ;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:hover{
+	text-decoration: none;
+}
+/* Main CSS Stop */
+/* Tailor carousel section start */
+.section-padding{
+	padding: 80px 0;
+}
+.section-padding.dark-bg {
+  background: #343434;
+  color: #a5a5a5;
+}
+.trailor-text {
+	font-size: 16px;
+	line-height: 1.7;
+	padding-top: 100px;
+}
+.trailor-text h2 {
+  font-size: 32px;
+  text-transform: uppercase;
+  line-height: 50px;
+  margin-bottom: 25px;
+  font-weight: 500;
+  color: #fff;
+}
+.bordered-btn {
+  display: inline-block;
+  border: 2px solid #ff5151;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 8px 15px;
+  width: 150px;
+  margin-top: 30px;	
+}
+.bordered-btn i.fas {
+	float: right;
+	padding-top: 5px;
+}
+.trailor-info {
+	position: relative;
+	text-align: right;
+}
+.colored-pricing-box {
+	position: absolute;
+	right: 140px;
+	color: #fff;
+	background: #ff5151;
+	text-align: center;
+	text-transform: uppercase;
+	width: 200px;
+	padding-top: 50px;
+	height: 250px;
+}
+.colored-pricing-box p {
+  opacity: .5;
+}
+.colored-pricing-box p.pricing-text {
+  color: #fff;
+  opacity: 1;
+  font-weight: 700;
+  font-size: 30px;
+}
+.absolute-shoppingl-card {
+  position: absolute;
+  left: -25px;
+  top: 35px;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  color: #333;
+  font-size: 15px;
+  line-height: 50px;
+  box-shadow: 0 0 10px #666;
+}
+.trailor-info img {
+	position: relative;
+	z-index: 1;
+	padding-top: 160px;
+}
+	/* Carousel Work */
+.owl-carousel .owl-item .trailor-info img {
+  width: auto;
+  display: inline-block;
+}
+.featured-trailors-carousel .owl-dots button {
+	display: block;
+	border-left: 3px solid #444;
+	padding: 20px 10px !important;
+}
+.featured-trailors-carousel .owl-dots button:nth-child(1) span:before{content:"01";}
+.featured-trailors-carousel .owl-dots button:nth-child(2) span:before{content:"02";}
+.featured-trailors-carousel .owl-dots button:nth-child(3) span:before{content:"03";}
+.featured-trailors-carousel .owl-dots button.active {
+  border-color: #ff5151;
+}
+.featured-trailors-carousel .owl-dots {
+	position: absolute;
+	top: 30%;
+	right: -120px;
+}
+/* Tailor carousel section Stop */
